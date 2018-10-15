@@ -5,11 +5,19 @@ import java.util.Scanner;
 /**
  * 简易版桶排序
  *
- * 题目描述 ：输入 m 以内的 n 个非负数，将它们从大到小输出
+ * 题目描述 ：输入 m 以内的 n 个非负整数，将它们从大到小输出
+ *
+ * 基本思路 ：
+ *      1、初始化 (m+1) 个桶，将输入的 n 个数看作 n 个标有相应数值的球
+ *      2、将球投入对应的桶中（比如说球上的数字为 20，则投入下标为 20 的桶中）
+ *      3、按照要求（从大到小 or 从小到大）遍历桶，桶中有几个球就输出几次对应下标
+ *      4、然后我们的排序就完成啦
+ *
+ * 注意事项 ：
+ *      适用于。。算了不太好描述总之你懂的啦
  *
  * 时间复杂度 ：O(M+N)
- *
- * 解析 ：共循环 m（初始化桶） + n（输入n个数） + (m + n)（遍历输出），即 2*(m + n) 次
+ *      共循环 m（初始化桶） + n（输入n个数） + (m + n)（遍历输出），即 2*(m + n) 次嘛
  *
  * 输出示例 ：
  *      请输入0-1000之间的10个数字 ：
@@ -28,12 +36,12 @@ public class DemoEasyBucketSort {
             bucket[i] = 0;
         }
 
-        // 令 n = 10, 这里需要在控制台手动输入 10 个数字
+        // 令 n = 10
         int n = 10;
-        System.out.println("请输入0-" + (bucket.length-1) + "之间的" + n + "个数字 ：");
-        // 获取Scanner
-        Scanner scanner = new Scanner(System.in);
 
+        // 输入要比较的数字
+        System.out.println("请输入0-" + (bucket.length-1) + "之间的" + n + "个数字 ：");
+        Scanner scanner = new Scanner(System.in);
         for(int i = 0; i < n; i++) {
             // 得到控制台输入的数字
             int num = scanner.nextInt();

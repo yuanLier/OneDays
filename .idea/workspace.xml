@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="" />
+    <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../OneDays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OneDays/src/_20181015/bubbleSort/DemoBubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OneDays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OneDays/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OneDays/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OneDays/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/../OneDays/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DemoEasyBucketSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoEasyBucketSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../OneDays/src/_20181014/easyBucketSort/DemoEasyBucketSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="-544">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoBubbleSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../OneDays/src/_20181015/bubbleSort/DemoBubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -30,12 +44,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../OneDays" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../OneDays/src/_20181014/bucketSort/DemoBucketSort.java" />
         <option value="$PROJECT_DIR$/../OneDays/src/_20181014/easyBucketSort/DemoBucketSort.java" />
         <option value="$PROJECT_DIR$/../OneDays/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" />
+        <option value="$PROJECT_DIR$/../OneDays/src/_20181015/bubbleSort/DemoBubbleSort.java" />
       </list>
     </option>
   </component>
@@ -53,6 +71,9 @@
     <option name="y" value="21" />
     <option name="width" value="1401" />
     <option name="height" value="981" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -85,6 +106,19 @@
               <item name="_20181014" type="462c0819:PsiDirectoryNode" />
               <item name="easyBucketSort" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181015" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181015" type="462c0819:PsiDirectoryNode" />
+              <item name="bubbleSort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -113,7 +147,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DemoBubbleSort">
+    <configuration name="DemoBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181015.bubbleSort.DemoBubbleSort" />
+      <module name="OneDays" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../OneDays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_20181015.bubbleSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="DemoEasyBucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181014.easyBucketSort.DemoEasyBucketSort" />
       <module name="OneDays" />
@@ -166,8 +211,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.DemoEasyBucketSort" />
+      <item itemvalue="Application.DemoBubbleSort" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoBubbleSort" />
         <item itemvalue="Application.DemoEasyBucketSort" />
       </list>
     </recent_temporary>
@@ -182,12 +232,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539504797598</updated>
-      <workItem from="1539504802730" duration="3939000" />
+      <workItem from="1539504802730" duration="8145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3939000" />
+    <option name="totallyTimeSpent" value="8145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -202,8 +252,8 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.32958803" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" weight="0.32958803" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897195" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32958803" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771537" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
@@ -237,8 +287,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../OneDays/src/_20181014/easyBucketSort/DemoEasyBucketSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="-544">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OneDays/src/_20181015/bubbleSort/DemoBubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
         </state>
       </provider>
     </entry>
