@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181017/queue/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,29 +30,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoBubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181015/bubbleSort/DemoBubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="50" column="15" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoEasyBucketSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181014/easyBucketSort/DemoEasyBucketSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoQuickSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoQuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="16">
+              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_20181017/queue/MyQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,6 +70,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myQueue</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>q</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -76,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" />
         <option value="$PROJECT_DIR$/src/_20181015/bubbleSort/DemoBubbleSort.java" />
         <option value="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java" />
+        <option value="$PROJECT_DIR$/src/_20181017/queue/MyQueue.java" />
       </list>
     </option>
   </component>
@@ -102,6 +117,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,16 +168,19 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181016" type="462c0819:PsiDirectoryNode" />
-              <item name="quickSort" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181017" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoQuickSort">
+  <component name="RunManager" selected="Application.DemoQueue">
     <configuration name="DemoBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181015.bubbleSort.DemoBubbleSort" />
       <module name="OneDays" />
@@ -201,6 +222,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_20181014.easyBucketSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DemoQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181017.queue.DemoQueue" />
+      <module name="OneDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_20181017.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,9 +293,11 @@
       <item itemvalue="Application.DemoEasyBucketSort" />
       <item itemvalue="Application.DemoBubbleSort" />
       <item itemvalue="Application.DemoQuickSort" />
+      <item itemvalue="Application.DemoQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoQueue" />
         <item itemvalue="Application.DemoQuickSort" />
         <item itemvalue="Application.DemoBubbleSort" />
         <item itemvalue="Application.DemoEasyBucketSort" />
@@ -283,12 +317,13 @@
       <workItem from="1539504802730" duration="11077000" />
       <workItem from="1539594287306" duration="625000" />
       <workItem from="1539596518781" duration="34000" />
-      <workItem from="1539694741904" duration="6540000" />
+      <workItem from="1539694741904" duration="6962000" />
+      <workItem from="1539765233842" duration="9387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18276000" />
+    <option name="totallyTimeSpent" value="28085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -308,7 +343,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.283751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.28860146" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -362,6 +397,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181015/bubbleSort/DemoBubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -420,8 +469,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="16">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
