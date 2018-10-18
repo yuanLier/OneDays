@@ -44,8 +44,7 @@ public class DemoQueue {
         Scanner scanner = new Scanner(System.in);
         for(int i = 0; i < n; i++) {
             // 依次添加到队尾
-            q.queue[q.tail] = scanner.nextInt();
-            q.tail++;
+            q.queue[q.tail++] = scanner.nextInt();
         }
 
         // 在队首队尾还没有相遇的时候，循环执行下列步骤 ：
