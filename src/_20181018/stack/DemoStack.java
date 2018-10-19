@@ -1,6 +1,5 @@
 package _20181018.stack;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 /**
