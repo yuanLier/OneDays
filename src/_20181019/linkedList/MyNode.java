@@ -6,9 +6,7 @@ package _20181019.linkedList;
 
 public class MyNode {
     // 存储数据
-    int data;
+    int data = 0;
     // 指向下一个节点
-    MyNode next;
-
-    MyNode(){}
+    MyNode next = null;
 }
