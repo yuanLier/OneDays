@@ -48,9 +48,11 @@ import java.util.Scanner;
  */
 
 public class DemoStack {
+    private static final int SIZE_OF_STACK = 100;
+
     public static void main(String[] args) {
         // 创建一个栈，并初始化它的top
-        MyStack s = new MyStack(100);
+        MyStack s = new MyStack(SIZE_OF_STACK);
         s.top = 0;
 
         System.out.println("请输入要判断的字符串 ：");

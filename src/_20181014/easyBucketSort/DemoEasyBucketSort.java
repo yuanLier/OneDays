@@ -27,22 +27,23 @@ import java.util.Scanner;
  */
 
 public class DemoEasyBucketSort {
+    // 令 N = 10
+    private static final int N = 10;
+    private static final int M = 1000;
+
     public static void main(String[] args) {
 
-        // 令 m = 1000, 则我们需要初始化 1001 个桶
-        int bucket[] = new int[1001];
+        // 令 M = 1000, 则我们需要初始化 1001 个桶
+        int bucket[] = new int[M+1];
         // 将每个桶的初始值设为 0
         for(int i = 0; i < bucket.length; i++) {
             bucket[i] = 0;
         }
 
-        // 令 n = 10
-        int n = 10;
-
         // 输入要比较的数字
-        System.out.println("请输入0-" + (bucket.length-1) + "之间的" + n + "个数字 ：");
+        System.out.println("请输入0-" + M + "之间的" + N + "个数字 ：");
         Scanner scanner = new Scanner(System.in);
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < N; i++) {
             // 得到控制台输入的数字
             int num = scanner.nextInt();
             // 将与该数字对应的桶加一

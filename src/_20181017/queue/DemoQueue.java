@@ -30,9 +30,12 @@ import java.util.Scanner;
  */
 
 public class DemoQueue {
+    private static final int SIZE_OF_QUEUE = 100;
+    private static final int SIZE_OF_NUM = 9;
+
     public static void main(String[] args) {
         // 首先创建一个队列（初始值设长一点点）
-        MyQueue q = new MyQueue(100);
+        MyQueue q = new MyQueue(SIZE_OF_QUEUE);
 
         // 初始化队列（头和尾均指向同一个元素，表示这个队列目前为空）
         q.head = 0;
@@ -40,9 +43,8 @@ public class DemoQueue {
 
         // 向队列中加入九个数
         System.out.println("请输入加密过的数字 ：");
-        int n = 9;
         Scanner scanner = new Scanner(System.in);
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < SIZE_OF_NUM; i++) {
             // 依次添加到队尾
             q.queue[q.tail++] = scanner.nextInt();
         }

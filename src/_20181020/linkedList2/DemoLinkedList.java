@@ -27,6 +27,8 @@ import java.util.Scanner;
  */
 
 public class DemoLinkedList {
+    private static final int N = 10;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -35,9 +37,8 @@ public class DemoLinkedList {
         MyNode temp = head;
         MyNode current;
 
-        System.out.println("请输入十个数字 ：");
-        int n = 10;
-        for(int i = 0; i < n; i++) {
+        System.out.println("请输入" + N +"个数字 ：");
+        for(int i = 0; i < N; i++) {
             current = new MyNode();
             current.data = scanner.nextInt();
 

@@ -38,6 +38,8 @@ import java.util.Scanner;
  */
 
 public class DemoLinkedList {
+    private static final int N = 10;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -46,12 +48,11 @@ public class DemoLinkedList {
         MyNode temp = head;
         MyNode current;
 
-        System.out.println("请按序输入十个数字 ：");
+        System.out.println("请按序输入" + N + "个数字 ：");
         /************** 链表的构建逻辑从这里开始 **************/
 
-        // 按序（从小到大）输入十个数字
-        int n = 10;
-        for(int i = 0; i < n; i++) {
+        // 按序（从小到大）输入N个数字
+        for(int i = 0; i < N; i++) {
             // 创建一个当前对象
             current = new MyNode();
             // 将输入的数字保存到节点数据

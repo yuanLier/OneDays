@@ -35,21 +35,22 @@ import java.util.Scanner;
  */
 
 public class DemoQuickSort {
+    // 令 N = 10
+    private static final int N = 10;
+
     public static void main(String[] args) {
-        // 令 n = 10
-        int n = 10;
-        // 初始化一个数组来装我们的 n 个数
-        int[] arr = new int[n];
+        // 初始化一个数组来装我们的 N 个数
+        int[] arr = new int[N];
 
         // 输入要比较的数字
-        System.out.println("请输入要比较的" + n + "个数 ：");
+        System.out.println("请输入要比较的" + N + "个数 ：");
         Scanner scanner = new Scanner(System.in);
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < N; i++) {
             arr[i] = scanner.nextInt();
         }
 
         // 快速排序（是直接对数组进行操作的）
-        quickSort(arr,0,n-1);
+        quickSort(arr,0,N-1);
 
         System.out.println("进行快速排序后，输出如下 ：");
         for (int i = 0; i < arr.length; i++) {

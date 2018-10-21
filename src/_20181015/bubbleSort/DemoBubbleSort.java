@@ -34,25 +34,26 @@ import java.util.Scanner;
  */
 
 public class DemoBubbleSort {
+    // 令 N = 10
+    private static final int N = 10;
+
     public static void main(String[] args) {
 
-        // 令 n = 10
-        int n = 10;
-        // 初始化一个数组来装我们的 n 个数
-        float[] nums = new float[n];
+        // 初始化一个数组来装我们的 N 个数
+        float[] nums = new float[N];
 
         // 输入要比较的数字
-        System.out.println("请输入要比较的" + n + "个小数 ：");
+        System.out.println("请输入要比较的" + N + "个小数 ：");
         Scanner scanner = new Scanner(System.in);
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < N; i++) {
             nums[i] = scanner.nextFloat();
         }
 
         // 比较大小
         // 外层循环记录的是轮数
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < N; i++) {
             // 内层循环就开始比较相邻两个数了
-            for(int j = 0; j < (n-i)-1; j++) {
+            for(int j = 0; j < (N-i)-1; j++) {
                 // 若这个数比它的下个数要小
                 if(nums[j] < nums[j+1]) {
                     // 交换两数的位置
@@ -65,7 +66,7 @@ public class DemoBubbleSort {
 
         // 遍历输出
         System.out.println("进行冒泡排序后，得到的数组如下 ：");
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < N; i++) {
             System.out.print(nums[i] + " ");
         }
     }
