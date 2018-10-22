@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_20182021/exhaustion/DemoExhaustion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181022/deepFirstSearch/DemoDeepFirstSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181015/bubbleSort/DemoBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181015/bubbleSort/DemoBubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181018/stack/DemoStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181018/stack/DemoStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181019/linkedList/DemoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181019/linkedList/DemoLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181020/linkedList2/DemoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181020/linkedList2/DemoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_20182021/exhaustion/DemoExhaustion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181021/exhaustion/DemoExhaustion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +30,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DemoExhaustion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_20182021/exhaustion/DemoExhaustion.java">
+      <file leaf-file-name="DemoDeepFirstSearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_20181022/deepFirstSearch/DemoDeepFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="112">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoExhaustion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_20181021/exhaustion/DemoExhaustion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -83,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" />
         <option value="$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java" />
         <option value="$PROJECT_DIR$/src/_20181020/linkedList2/DemoLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/_20181021/exhaustion/DemoExhaustion.java" />
+        <option value="$PROJECT_DIR$/src/_20181022/deepFirstSearch/DemoDeepFirstSearch.java" />
       </list>
     </option>
   </component>
@@ -110,8 +124,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,14 +142,27 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20182021" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181021" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20182021" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181021" type="462c0819:PsiDirectoryNode" />
               <item name="exhaustion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181022" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181022" type="462c0819:PsiDirectoryNode" />
+              <item name="deepFirstSearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/_myJava/othres/OneDays/src/_20181019/linkedList/DemoLinkedList.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/_myJava/othres/OneDays/src/_20181017/queue/DemoQueue.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../backends/Backend" />
@@ -164,7 +191,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoLinkedList (1)">
+  <component name="RunManager" selected="Application.DemoDeepFirstSearch">
+    <configuration name="DemoDeepFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181022.deepFirstSearch.DemoDeepFirstSearch" />
+      <module name="OneDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_20181022.deepFirstSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="DemoLinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181020.linkedList2.DemoLinkedList" />
       <module name="OneDays" />
@@ -194,17 +232,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_20181017.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="DemoQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_20181016.quickSort.DemoQuickSort" />
-      <module name="OneDays" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_20181016.quickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,19 +289,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoQuickSort" />
       <item itemvalue="Application.DemoQueue" />
       <item itemvalue="Application.DemoLinkedList" />
       <item itemvalue="Application.DemoStack" />
       <item itemvalue="Application.DemoLinkedList (1)" />
+      <item itemvalue="Application.DemoDeepFirstSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoDeepFirstSearch" />
         <item itemvalue="Application.DemoLinkedList (1)" />
         <item itemvalue="Application.DemoStack" />
         <item itemvalue="Application.DemoLinkedList" />
         <item itemvalue="Application.DemoQueue" />
-        <item itemvalue="Application.DemoQuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -295,12 +322,13 @@
       <workItem from="1539765233842" duration="10141000" />
       <workItem from="1539858085474" duration="9255000" />
       <workItem from="1539947091099" duration="17323000" />
-      <workItem from="1540118178139" duration="4424000" />
+      <workItem from="1540118178139" duration="5043000" />
+      <workItem from="1540199253199" duration="6586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59841000" />
+    <option name="totallyTimeSpent" value="67046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -315,20 +343,19 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.32958803" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32771537" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32958803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32771537" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.22392885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.2271625" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="6" sideWeight="0.5037453" side_tool="true" weight="0.261924" />
-      <window_info id="Web" order="5" sideWeight="0.505618" side_tool="true" weight="0.26596606" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32958803" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -336,6 +363,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="5" sideWeight="0.505618" side_tool="true" weight="0.26596606" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32958803" />
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4995958" weight="0.32958803" />
@@ -528,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181019/linkedList/DemoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1019">
@@ -556,10 +577,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20182021/exhaustion/DemoExhaustion.java">
+    <entry file="file://$PROJECT_DIR$/src/_20181021/exhaustion/DemoExhaustion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="144">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181022/deepFirstSearch/DemoDeepFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
