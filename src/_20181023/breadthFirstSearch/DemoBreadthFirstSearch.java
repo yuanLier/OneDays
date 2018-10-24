@@ -3,7 +3,7 @@ package _20181023.breadthFirstSearch;
 import java.util.Scanner;
 
 /**
- * 深度优先搜索
+ * 广度优先搜索
  *
  * 题目描述 ：小哼要去迷宫里营救小哈，快用深度优先搜索找出最近的路吧！（强行bfs.jpg
  *
