@@ -124,7 +124,7 @@ public class DemoBreadthFirstSearch {
      * @param endX 目标点的横坐标
      * @param endY 目标点的纵坐标
      */
-    public static void dfs(int endX, int endY) {
+    private static void dfs(int endX, int endY) {
         // 定义一个表示方向的数组（分别为向 右、下、左、上 走）
         int[][] next = {
                 {0, 1}, {1, 0}, {0, -1}, {1, 0}

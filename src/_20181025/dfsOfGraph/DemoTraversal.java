@@ -56,13 +56,8 @@ public class DemoTraversal {
         graph = new int[SIZE_OF_GRAPH][SIZE_OF_GRAPH];
         for(int i = 0; i < SIZE_OF_GRAPH; i++) {
             for(int j = 0; j < SIZE_OF_GRAPH; j++) {
-                if(i == j) {
-                    // 自己跟自己设为 0
-                    graph[i][j] = 0;
-                } else {
-                    // 其他的都暂且设为无穷大（就假装9999是无穷大叭）
-                    graph[i][j] = 9999;
-                }
+                // 自己跟自己设为 0，其他的都暂且设为无穷大（就假装9999是无穷大叭）
+                graph[i][j] = (i == j) ? 0 : 9999;
             }
         }
 

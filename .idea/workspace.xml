@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_20181025/dfsOfGraph/DemoTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181026/bfsOfGraph/DemoTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181026/bfsOfGraph/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181025/dfsOfGraph/DemoTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181025/dfsOfGraph/DemoTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_20181025/dfsOfGraph/DemoTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181025/dfsOfGraph/DemoTraversal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,35 +37,26 @@
       <file leaf-file-name="DemoBreadthFirstSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="-268">
+              <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoBigFish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181024/fiiiiiiiiiiish/DemoBigFish.java">
+      <file leaf-file-name="DemoTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_20181025/dfsOfGraph/DemoTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="56">
+              <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DemoTraversal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_20181025/dfsOfGraph/DemoTraversal.java">
+        <entry file="file://$PROJECT_DIR$/src/_20181026/bfsOfGraph/DemoTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoDeepFirstSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181022/deepFirstSearch/DemoDeepFirstSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+            <state relative-caret-position="304">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -111,9 +107,12 @@
         <option value="$PROJECT_DIR$/src/_20181022/deepFirstSearch/DemoDeepFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/_20181023/breadthFirstSearch/QueueNode.java" />
         <option value="$PROJECT_DIR$/src/_20181023/breadthFirstSearch/MyQueue.java" />
-        <option value="$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/_20181024/fiiiiiiiiiiish/DemoBigFish.java" />
         <option value="$PROJECT_DIR$/src/_20181025/dfsOfGraph/DemoTraversal.java" />
+        <option value="$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/_20181026/bfsOfGraph/QueueNode.java" />
+        <option value="$PROJECT_DIR$/src/_20181026/bfsOfGraph/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/_20181026/bfsOfGraph/DemoTraversal.java" />
       </list>
     </option>
   </component>
@@ -140,6 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,14 +157,27 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181022" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181017" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181022" type="462c0819:PsiDirectoryNode" />
-              <item name="deepFirstSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181017" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181023" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181023" type="462c0819:PsiDirectoryNode" />
+              <item name="breadthFirstSearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
@@ -178,13 +192,24 @@
               <item name="_20181025" type="462c0819:PsiDirectoryNode" />
               <item name="dfsOfGraph" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181026" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181026" type="462c0819:PsiDirectoryNode" />
+              <item name="bfsOfGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoTraversal">
+  <component name="RunManager" selected="Application.DemoTraversal (1)">
     <configuration name="DemoBigFish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181024.fiiiiiiiiiiish.DemoBigFish" />
       <module name="OneDays" />
@@ -242,13 +267,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DemoLinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_20181020.linkedList2.DemoLinkedList" />
+    <configuration name="DemoTraversal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181026.bfsOfGraph.DemoTraversal" />
       <module name="OneDays" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20181020.linkedList2.*" />
+          <option name="PATTERN" value="_20181026.bfsOfGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,19 +331,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoLinkedList (1)" />
       <item itemvalue="Application.DemoDeepFirstSearch" />
       <item itemvalue="Application.DemoBreadthFirstSearch" />
       <item itemvalue="Application.DemoBigFish" />
       <item itemvalue="Application.DemoTraversal" />
+      <item itemvalue="Application.DemoTraversal (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoTraversal (1)" />
         <item itemvalue="Application.DemoTraversal" />
         <item itemvalue="Application.DemoBigFish" />
         <item itemvalue="Application.DemoBreadthFirstSearch" />
         <item itemvalue="Application.DemoDeepFirstSearch" />
-        <item itemvalue="Application.DemoLinkedList (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -346,12 +371,13 @@
       <workItem from="1540294241787" duration="510000" />
       <workItem from="1540295786567" duration="220000" />
       <workItem from="1540341573291" duration="2476000" />
-      <workItem from="1540457097171" duration="5928000" />
+      <workItem from="1540457097171" duration="6258000" />
+      <workItem from="1540515114060" duration="7417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93592000" />
+    <option name="totallyTimeSpent" value="101339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -359,34 +385,34 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958803" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49717057" weight="0.32958803" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.32958803" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32958803" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.411985" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32958803" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.24656427" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.2506063" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="6" sideWeight="0.5037453" side_tool="true" weight="0.261924" />
-      <window_info id="Web" order="5" sideWeight="0.505618" side_tool="true" weight="0.26596606" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32958803" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49717057" weight="0.32958803" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="5" sideWeight="0.505618" side_tool="true" weight="0.26596606" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32958803" />
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.4995958" weight="0.32958803" />
@@ -430,13 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181024/fiiiiiiiiiiish/DemoBigFish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -717,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/MyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1754">
@@ -745,31 +757,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181024/fiiiiiiiiiiish/DemoBigFish.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="228">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181022/deepFirstSearch/DemoDeepFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        <state relative-caret-position="1088">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181026/bfsOfGraph/QueueNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181026/bfsOfGraph/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="104" column="19" lean-forward="true" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181025/dfsOfGraph/DemoTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        <state relative-caret-position="56">
+          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181026/bfsOfGraph/DemoTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
