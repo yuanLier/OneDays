@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_20181030/dijkstra/DemoDijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181031/bellmanFord/DemoBellmanFord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181029/floydWarshall/DemoFloydWarshall.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,29 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoFloydWarshall.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181029/floydWarshall/DemoFloydWarshall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoDijkstra.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoDijkstra.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181030/dijkstra/DemoDijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="128">
+              <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoMinTurnaround.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181028/minTurnaround/DemoMinTurnaround.java">
+      <file leaf-file-name="DemoBellmanFord.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_20181031/bellmanFord/DemoBellmanFord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-448">
-              <caret line="98" column="18" lean-forward="true" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+            <state relative-caret-position="100">
+              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -115,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/_20181028/minTurnaround/DemoMinTurnaround.java" />
         <option value="$PROJECT_DIR$/src/_20181029/floydWarshall/DemoFloydWarshall.java" />
         <option value="$PROJECT_DIR$/src/_20181030/dijkstra/DemoDijkstra.java" />
+        <option value="$PROJECT_DIR$/src/_20181031/bellmanFord/DemoBellmanFord.java" />
       </list>
     </option>
   </component>
@@ -130,7 +121,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="width" value="996" />
-    <option name="height" value="1031" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,19 +148,6 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181028" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181028" type="462c0819:PsiDirectoryNode" />
-              <item name="minTurnaround" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_20181030" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,21 +157,40 @@
               <item name="_20181030" type="462c0819:PsiDirectoryNode" />
               <item name="dijkstra" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181031" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181031" type="462c0819:PsiDirectoryNode" />
+              <item name="bellmanFord" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/_myJava/othres/OneDays/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/homework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_myJava\othres\OneDays" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,7 +204,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoDijkstra">
+  <component name="RunManager" selected="Application.DemoBellmanFord">
+    <configuration name="DemoBellmanFord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181031.bellmanFord.DemoBellmanFord" />
+      <module name="OneDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_20181031.bellmanFord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="DemoCityGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181027.cityGraph.DemoCityGraph" />
       <module name="OneDays" />
@@ -249,17 +256,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_20181028.minTurnaround.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="DemoTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_20181025.dfsOfGraph.DemoTraversal" />
-      <module name="OneDays" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_20181025.dfsOfGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,19 +302,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoTraversal" />
       <item itemvalue="Application.DemoCityGraph" />
       <item itemvalue="Application.DemoMinTurnaround" />
       <item itemvalue="Application.DemoFloydWarshall" />
       <item itemvalue="Application.DemoDijkstra" />
+      <item itemvalue="Application.DemoBellmanFord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoBellmanFord" />
         <item itemvalue="Application.DemoDijkstra" />
         <item itemvalue="Application.DemoFloydWarshall" />
         <item itemvalue="Application.DemoMinTurnaround" />
         <item itemvalue="Application.DemoCityGraph" />
-        <item itemvalue="Application.DemoTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -352,12 +348,13 @@
       <workItem from="1540624513019" duration="10000" />
       <workItem from="1540690102830" duration="6196000" />
       <workItem from="1540780618342" duration="4793000" />
-      <workItem from="1540830558624" duration="5512000" />
+      <workItem from="1540830558624" duration="5813000" />
+      <workItem from="1540947761669" duration="4610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127574000" />
+    <option name="totallyTimeSpent" value="132485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -372,12 +369,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.32958803" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35955057" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35955057" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32958803" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.2708165" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.27485853" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,13 +433,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -782,8 +772,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181030/dijkstra/DemoDijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="128">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181031/bellmanFord/DemoBellmanFord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
