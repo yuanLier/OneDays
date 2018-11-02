@@ -186,9 +186,3 @@ public class DemoBellmanFord {
         }
     }
 }
-
-//1 2 2
-//0 1 -3
-//0 4 5
-//3 4 2
-//2 3 3
