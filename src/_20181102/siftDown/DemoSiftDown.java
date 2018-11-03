@@ -40,7 +40,7 @@ import java.util.Scanner;
  * 输出示例 ：
  *      请输入树的节点个数 ；
  *      10
- *      请按序（从小到大）输入各个数 ：
+ *      请输入你的最小堆 ：
  *      2 6 4 10 8 12 14 16 18 10
  *      请输入要插入的数字 ：
  *      9
@@ -59,7 +59,7 @@ public class DemoSiftDown {
 
         System.out.println("请输入树的节点个数 ；");
         SIZE_OF_NODE = scanner.nextInt();
-        System.out.println("请按序（从小到大）输入各个数 ：");
+        System.out.println("请输入你的最小堆 ：");
         heap = new int[SIZE_OF_NODE + 1];
         for(int i = 1; i <= SIZE_OF_NODE; i++) {
             heap[i] = scanner.nextInt();
@@ -77,7 +77,7 @@ public class DemoSiftDown {
     }
 
     /**
-     * 向下调整（最小堆）
+     * 将插入到顶点的数向下调整
      * @param i 传入一个需要向下调整的节点编号 i
      */
     private static void siftDown(int i) {
