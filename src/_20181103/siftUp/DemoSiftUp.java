@@ -17,6 +17,10 @@ import java.util.Scanner;
  *      还是那句话，注意它是从 1 开始的！从 1 开始的！从 1 开始的！
  *      还有就是实例化 heap 的时候记得给那个要插入的数多分配一个空间
  *
+ * 从未来穿越过来的注意事项*2 ：
+ *      其实可以把 heap 设置为一个全局变量的，siftUp 也可以设置成 private
+ *      但是为了方便后面建立最小堆的时候（2018/11/04）可以直接调用 siftUp 和 siftDown，就改成这样啦
+ *
  * 输出示例 ：
  *      请输入树的节点个数 ；
  *      10
@@ -30,7 +34,6 @@ import java.util.Scanner;
 
 public class DemoSiftUp {
     private static int SIZE_OF_NODE;
-    private static int[] heap;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -39,7 +42,7 @@ public class DemoSiftUp {
         SIZE_OF_NODE = scanner.nextInt();
         System.out.println("请输入你的最小堆 ：");
         // 记得这里给它多分配一个数的空间
-        heap = new int[SIZE_OF_NODE + 2];
+        int[] heap = new int[SIZE_OF_NODE + 2];
         for(int i = 1; i <= SIZE_OF_NODE; i++) {
             heap[i] = scanner.nextInt();
         }
@@ -50,7 +53,7 @@ public class DemoSiftUp {
         heap[node] = scanner.nextInt();
 
         // 将刚插入的数向上调整
-        siftUp(node);
+        siftUp(node, heap);
 
         // 输出
         System.out.println("插入后，当前最小堆为 ：");
@@ -62,8 +65,9 @@ public class DemoSiftUp {
     /**
      * 将插入到末尾的数向上调整
      * @param i 新添加的数的节点编号（理论上讲其实就是添加前的节点个数+1）
+     * @param heap 传入堆
      */
-    private static void siftUp(int i) {
+    public static void siftUp(int i, int[] heap) {
         boolean needSift = true;
 
         // 当新添加的数未到达顶点且需要调整
@@ -71,7 +75,7 @@ public class DemoSiftUp {
             // 若该数小于其父节点所代表的数
             if(heap[i] < heap[i/2]) {
                 // 交换两者的数值
-                swap(i, i/2);
+                swap(i, i/2, heap);
                 // 然后继续向上比较
                 i = i/2;
             } else {
@@ -84,8 +88,9 @@ public class DemoSiftUp {
      * 交换数组中的两元素
      * @param i 第一个元素的下标
      * @param j 第二个元素的下标
+     * @param heap 要交换的数组
      */
-    private static void swap(int i, int j) {
+    private static void swap(int i, int j, int[] heap) {
         int temp = heap[i];
         heap[i] = heap[j];
         heap[j] = temp;

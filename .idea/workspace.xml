@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181104/biuldHeap/DemoBuildHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181102/siftDown/DemoSiftDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181102/siftDown/DemoSiftDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181103/siftUp/DemoSiftUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181103/siftUp/DemoSiftUp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_20181102/siftDown/DemoSiftDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181102/siftDown/DemoSiftDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +54,8 @@
       <file leaf-file-name="DemoBellmanFord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181101/bellmanFord2/DemoBellmanFord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2992">
-              <caret line="187" column="1" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
+            <state relative-caret-position="372">
+              <caret line="178" column="46" lean-forward="true" selection-start-line="178" selection-start-column="46" selection-end-line="178" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -60,17 +63,29 @@
       <file leaf-file-name="DemoSiftDown.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181102/siftDown/DemoSiftDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="609">
+              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoSiftUp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoBuildHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_20181104/biuldHeap/DemoBuildHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoSiftUp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="1328">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -135,8 +150,10 @@
         <option value="$PROJECT_DIR$/src/_20181030/dijkstra/DemoDijkstra.java" />
         <option value="$PROJECT_DIR$/src/_20181031/bellmanFord/DemoBellmanFord.java" />
         <option value="$PROJECT_DIR$/src/_20181101/bellmanFord2/DemoBellmanFord.java" />
-        <option value="$PROJECT_DIR$/src/_20181102/siftDown/DemoSiftDown.java" />
+        <option value="$PROJECT_DIR$/src/_20181104/biuldHeap/DemoDuildHeap.java" />
         <option value="$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java" />
+        <option value="$PROJECT_DIR$/src/_20181102/siftDown/DemoSiftDown.java" />
+        <option value="$PROJECT_DIR$/src/_20181104/biuldHeap/DemoBuildHeap.java" />
       </list>
     </option>
   </component>
@@ -162,7 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +191,12 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181101" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
@@ -201,16 +224,29 @@
               <item name="_20181103" type="462c0819:PsiDirectoryNode" />
               <item name="siftUp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181104" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181104" type="462c0819:PsiDirectoryNode" />
+              <item name="biuldHeap" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/_myJava/othres/OneDays/src/_20181101/bellmanFord2/DemoBellmanFord.java" />
+    <property name="SearchEverywhereHistoryKey" value="sift&#9;FILE&#9;file://C:/_myJava/othres/OneDays/src/_20181102/siftDown/DemoSiftDown.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -235,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoSiftUp">
+  <component name="RunManager" selected="Application.DemoBuildHeap">
     <configuration name="DemoBellmanFord (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181101.bellmanFord2.DemoBellmanFord" />
       <module name="OneDays" />
@@ -258,13 +294,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DemoDijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_20181030.dijkstra.DemoDijkstra" />
+    <configuration name="DemoBuildHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181104.biuldHeap.DemoBuildHeap" />
       <module name="OneDays" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20181030.dijkstra.*" />
+          <option name="PATTERN" value="_20181104.biuldHeap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,19 +369,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoDijkstra" />
       <item itemvalue="Application.DemoBellmanFord" />
       <item itemvalue="Application.DemoBellmanFord (1)" />
       <item itemvalue="Application.DemoSiftDown" />
       <item itemvalue="Application.DemoSiftUp" />
+      <item itemvalue="Application.DemoBuildHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoBuildHeap" />
         <item itemvalue="Application.DemoSiftUp" />
         <item itemvalue="Application.DemoSiftDown" />
         <item itemvalue="Application.DemoBellmanFord (1)" />
         <item itemvalue="Application.DemoBellmanFord" />
-        <item itemvalue="Application.DemoDijkstra" />
       </list>
     </recent_temporary>
   </component>
@@ -383,12 +419,13 @@
       <workItem from="1540947761669" duration="4759000" />
       <workItem from="1541034853796" duration="4088000" />
       <workItem from="1541117622468" duration="9550000" />
-      <workItem from="1541210829055" duration="3602000" />
+      <workItem from="1541210829055" duration="4486000" />
+      <workItem from="1541294045459" duration="7057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149874000" />
+    <option name="totallyTimeSpent" value="157815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -403,12 +440,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.32958803" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35955057" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35955057" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32958803" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.28940988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.23362975" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,13 +504,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/DemoBreadthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3136">
-          <caret line="196" column="80" selection-start-line="196" selection-start-column="80" selection-end-line="196" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181023/breadthFirstSearch/QueueNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -799,22 +829,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181101/bellmanFord2/DemoBellmanFord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="187" column="1" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181102/siftDown/DemoSiftDown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="372">
+          <caret line="178" column="46" lean-forward="true" selection-start-line="178" selection-start-column="46" selection-end-line="178" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="1328">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181102/siftDown/DemoSiftDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181104/biuldHeap/DemoBuildHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

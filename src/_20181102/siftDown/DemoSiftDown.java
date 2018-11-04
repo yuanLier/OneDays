@@ -37,6 +37,10 @@ import java.util.Scanner;
  * 注意事项 PLUUUUUUUUUS ：
  *      注意节点编号是从 1 开始的！从 1 开始的！ 从 1 开始的！
  *
+ * 从未来穿越过来的注意事项 ：
+ *      其实可以把 heap 设置为一个全局变量的，siftDown 也可以设置成 private
+ *      但是为了方便后面建立最小堆的时候（2018/11/04）可以直接调用 siftUp 和 siftDown，就改成这样啦
+ *
  * 输出示例 ：
  *      请输入树的节点个数 ；
  *      10
@@ -51,8 +55,6 @@ import java.util.Scanner;
 public class DemoSiftDown {
     // 树的节点个数
     private static int SIZE_OF_NODE;
-    // 用来模拟堆的数组
-    private static int[] heap;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -60,7 +62,8 @@ public class DemoSiftDown {
         System.out.println("请输入树的节点个数 ；");
         SIZE_OF_NODE = scanner.nextInt();
         System.out.println("请输入你的最小堆 ：");
-        heap = new int[SIZE_OF_NODE + 1];
+        // 用来模拟堆的数组
+        int[] heap = new int[SIZE_OF_NODE + 1];
         for(int i = 1; i <= SIZE_OF_NODE; i++) {
             heap[i] = scanner.nextInt();
         }
@@ -70,7 +73,7 @@ public class DemoSiftDown {
         heap[1] = scanner.nextInt();
 
         // 将刚插入的首位数向下调整
-        siftDown(1);
+        siftDown(1, heap, SIZE_OF_NODE);
 
         // 输出
         System.out.println("删除最小数，插入指定数后，当前最小数为 ：\n" + heap[1]);
@@ -79,8 +82,10 @@ public class DemoSiftDown {
     /**
      * 将插入到顶点的数向下调整
      * @param i 传入一个需要向下调整的节点编号 i
+     * @param heap 传入一个这个
+     * @param SIZE_OF_NODE 和这个 都只是为了方便后面的调用啦
      */
-    private static void siftDown(int i) {
+    public static void siftDown(int i,int[] heap, int SIZE_OF_NODE) {
         // 记录 i 与其左右儿子中数值最小的那个节点的编号
         int temp;
         // 判断是否需要向下调整
@@ -89,6 +94,7 @@ public class DemoSiftDown {
         // 当节点i有儿子并且需要向下调整的时候
         // 注意一轮循环结束后，再次进入循环时，i 已经变成先前那个 i 的某个儿子了
         while(i*2 <= SIZE_OF_NODE && needSift) {
+
             // 首先比较它与左儿子的大小，用temp记录数值较小的那个节点号
             temp = heap[i] < heap[i*2] ? i : i*2;
 
@@ -102,7 +108,7 @@ public class DemoSiftDown {
             // 若发现 temp 不是它自己，说明儿子中有比父亲数值小的
             if(temp != i) {
                 // 交换父亲和这个儿子的位置
-                swap(i, temp);
+                swap(i, temp, heap);
                 // 令 i = temp，方便进行下一轮调整
                 i = temp;
             } else {
@@ -116,8 +122,9 @@ public class DemoSiftDown {
      * 交换数组中的两元素
      * @param i 第一个元素的下标
      * @param j 第二个元素的下标
+     * @param heap 传入一个堆
      */
-    private static void swap(int i, int j) {
+    private static void swap(int i, int j, int[] heap) {
         int temp = heap[i];
         heap[i] = heap[j];
         heap[j] = temp;
