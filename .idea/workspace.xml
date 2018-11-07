@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181107/miniTree/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181016/quickSort/DemoQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181016/quickSort/DemoQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181105/heapSort/DemoHeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181105/heapSort/DemoHeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,41 +34,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoBuildHeap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181104/biuldHeap/DemoBuildHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1376">
-              <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoHeapSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181105/heapSort/DemoHeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoUnionFindSets.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoUnionFindSets.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="868">
+              <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoSiftUp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java">
+      <file leaf-file-name="DemoMiniTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="2928">
+              <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/Connect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoQuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -82,11 +84,15 @@
       <find>myQueue</find>
       <find>1</find>
       <find>2</find>
+      <find>father</find>
+      <find>arr</find>
     </findStrings>
     <replaceStrings>
       <replace>q</replace>
       <replace>0</replace>
       <replace>1</replace>
+      <replace>boss</replace>
+      <replace>connects</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -105,7 +111,6 @@
         <option value="$PROJECT_DIR$/src/_20182021/exhaustion/DemoExhaustion.java" />
         <option value="$PROJECT_DIR$/src/_20181018/stack/DemoStack.java" />
         <option value="$PROJECT_DIR$/src/_20181019/linkedList/DemoLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" />
         <option value="$PROJECT_DIR$/src/_20181015/bubbleSort/DemoBubbleSort.java" />
         <option value="$PROJECT_DIR$/src/_20181014/easyBucketSort/DemoEasyBucketSort.java" />
         <option value="$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java" />
@@ -135,6 +140,10 @@
         <option value="$PROJECT_DIR$/src/homework/MultiplicationTable.java" />
         <option value="$PROJECT_DIR$/src/_20181105/heapSort/DemoHeapSort.java" />
         <option value="$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java" />
+        <option value="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/_20181107/miniTree/Hint.java" />
+        <option value="$PROJECT_DIR$/src/_20181107/miniTree/Connect.java" />
+        <option value="$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java" />
       </list>
     </option>
   </component>
@@ -160,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,6 +180,19 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181016" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181016" type="462c0819:PsiDirectoryNode" />
+              <item name="quickSort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
@@ -192,10 +213,24 @@
               <item name="_20181106" type="462c0819:PsiDirectoryNode" />
               <item name="unionFindSets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181107" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181107" type="462c0819:PsiDirectoryNode" />
+              <item name="miniTree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -229,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoHeapSort">
+  <component name="RunManager" selected="Application.DemoMiniTree">
     <configuration name="DemoBuildHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181104.biuldHeap.DemoBuildHeap" />
       <module name="OneDays" />
@@ -252,24 +287,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DemoSiftDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_20181102.siftDown.DemoSiftDown" />
+    <configuration name="DemoMiniTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181107.miniTree.DemoMiniTree" />
       <module name="OneDays" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20181102.siftDown.*" />
+          <option name="PATTERN" value="_20181107.miniTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DemoSiftUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_20181103.siftUp.DemoSiftUp" />
+    <configuration name="DemoUnionFindSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181106.unionFindSets.DemoUnionFindSets" />
       <module name="OneDays" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20181103.siftUp.*" />
+          <option name="PATTERN" value="_20181106.unionFindSets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,19 +362,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoSiftDown" />
-      <item itemvalue="Application.DemoSiftUp" />
       <item itemvalue="Application.DemoBuildHeap" />
       <item itemvalue="Application.MultiplicationTable" />
       <item itemvalue="Application.DemoHeapSort" />
+      <item itemvalue="Application.DemoUnionFindSets" />
+      <item itemvalue="Application.DemoMiniTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoMiniTree" />
+        <item itemvalue="Application.DemoUnionFindSets" />
         <item itemvalue="Application.DemoHeapSort" />
         <item itemvalue="Application.DemoBuildHeap" />
         <item itemvalue="Application.MultiplicationTable" />
-        <item itemvalue="Application.DemoSiftUp" />
-        <item itemvalue="Application.DemoSiftDown" />
       </list>
     </recent_temporary>
   </component>
@@ -381,12 +416,13 @@
       <workItem from="1541294045459" duration="7711000" />
       <workItem from="1541341904795" duration="811000" />
       <workItem from="1541393575308" duration="4385000" />
-      <workItem from="1541478212739" duration="3201000" />
+      <workItem from="1541478212739" duration="3440000" />
+      <workItem from="1541548313404" duration="8034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166866000" />
+    <option name="totallyTimeSpent" value="175139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -394,6 +430,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958803" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49717057" weight="0.32958803" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -405,7 +442,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.24575587" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.2497979" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -419,7 +456,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49717057" weight="0.32958803" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,20 +501,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181018/stack/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181018/stack/DemoStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
@@ -595,13 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -774,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework/MultiplicationTable.java" />
     <entry file="file://$PROJECT_DIR$/src/_20181014/easyBucketSort/DemoEasyBucketSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -789,27 +797,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_20181104/biuldHeap/DemoBuildHeap.java">
+    <entry file="file://$PROJECT_DIR$/src/_20181103/siftUp/DemoSiftUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1376">
-          <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-556">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181105/heapSort/DemoHeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="60" column="36" lean-forward="true" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181104/biuldHeap/DemoBuildHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="868">
+          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/Connect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2928">
+          <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -64,7 +64,7 @@ public class DemoQuickSort {
      * @param left 传入数组拆分的起始索引（即左下标）
      * @param right 传入数组拆分的结束索引（即右下标）
      */
-    private static void quickSort(int[] arr, int left, int right) {
+    public static void quickSort(int[] arr, int left, int right) {
 
         // 首先判断一下，如果在最开始已经 right <= left 了，就直接结束
         if(right <= left) {
