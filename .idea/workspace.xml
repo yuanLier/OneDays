@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0e2426-fc9e-4287-90e5-2a1cac6e6d60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_20181107/miniTree/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_20181108/cutPoint/DemoCutPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181016/quickSort/DemoQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181016/quickSort/DemoQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OneDays/_20181105/heapSort/DemoHeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OneDays/_20181105/heapSort/DemoHeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,20 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoUnionFindSets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181106/unionFindSets/DemoUnionFindSets.java">
+      <file leaf-file-name="DemoMiniTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoMiniTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java">
+      <file leaf-file-name="DemoCutPoint.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_20181108/cutPoint/DemoCutPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2928">
-              <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+            <state relative-caret-position="289">
+              <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -61,20 +56,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoQuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -144,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/_20181107/miniTree/Hint.java" />
         <option value="$PROJECT_DIR$/src/_20181107/miniTree/Connect.java" />
         <option value="$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java" />
+        <option value="$PROJECT_DIR$/src/_20181108/cutPoint/DemoCutPoint.java" />
       </list>
     </option>
   </component>
@@ -185,38 +173,6 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181016" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181016" type="462c0819:PsiDirectoryNode" />
-              <item name="quickSort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181105" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181106" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181106" type="462c0819:PsiDirectoryNode" />
-              <item name="unionFindSets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="_20181107" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,13 +182,26 @@
               <item name="_20181107" type="462c0819:PsiDirectoryNode" />
               <item name="miniTree" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181108" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181108" type="462c0819:PsiDirectoryNode" />
+              <item name="cutPoint" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoMiniTree">
+  <component name="RunManager" selected="Application.DemoCutPoint">
     <configuration name="DemoBuildHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20181104.biuldHeap.DemoBuildHeap" />
       <module name="OneDays" />
@@ -272,6 +241,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_20181104.biuldHeap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DemoCutPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_20181108.cutPoint.DemoCutPoint" />
+      <module name="OneDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_20181108.cutPoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,17 +285,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_20181106.unionFindSets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.MultiplicationTable" />
-      <module name="OneDays" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,18 +332,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemoBuildHeap" />
-      <item itemvalue="Application.MultiplicationTable" />
       <item itemvalue="Application.DemoHeapSort" />
       <item itemvalue="Application.DemoUnionFindSets" />
       <item itemvalue="Application.DemoMiniTree" />
+      <item itemvalue="Application.DemoCutPoint" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoCutPoint" />
         <item itemvalue="Application.DemoMiniTree" />
         <item itemvalue="Application.DemoUnionFindSets" />
         <item itemvalue="Application.DemoHeapSort" />
         <item itemvalue="Application.DemoBuildHeap" />
-        <item itemvalue="Application.MultiplicationTable" />
       </list>
     </recent_temporary>
   </component>
@@ -417,12 +386,13 @@
       <workItem from="1541341904795" duration="811000" />
       <workItem from="1541393575308" duration="4385000" />
       <workItem from="1541478212739" duration="3440000" />
-      <workItem from="1541548313404" duration="8034000" />
+      <workItem from="1541548313404" duration="8161000" />
+      <workItem from="1541664864911" duration="5435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175139000" />
+    <option name="totallyTimeSpent" value="180701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -438,11 +408,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35955057" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32958803" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32897195" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.2497979" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.25383994" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -501,13 +471,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_20181018/stack/DemoStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -815,9 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,8 +804,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2928">
-          <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+        <state relative-caret-position="340">
+          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181108/cutPoint/DemoCutPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
         </state>
       </provider>
     </entry>
