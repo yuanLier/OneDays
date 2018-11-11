@@ -29,17 +29,26 @@
       <file leaf-file-name="DemoMiniTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+            <state relative-caret-position="1008">
+              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoCutPoint.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoCutPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_20181108/cutPoint/DemoCutPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="100">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trulyGugu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_20181110/gugu/trulyGugu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -129,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/_20181107/miniTree/Connect.java" />
         <option value="$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java" />
         <option value="$PROJECT_DIR$/src/_20181108/cutPoint/DemoCutPoint.java" />
+        <option value="$PROJECT_DIR$/src/_20181110/gugu/trulyGugu.java" />
       </list>
     </option>
   </component>
@@ -154,6 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,35 +182,20 @@
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181107" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181110" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
               <item name="OneDays" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181107" type="462c0819:PsiDirectoryNode" />
-              <item name="miniTree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181108" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OneDays" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OneDays" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_20181108" type="462c0819:PsiDirectoryNode" />
-              <item name="cutPoint" type="462c0819:PsiDirectoryNode" />
+              <item name="_20181110" type="462c0819:PsiDirectoryNode" />
+              <item name="gugu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,18 +382,19 @@
       <workItem from="1541478212739" duration="3440000" />
       <workItem from="1541548313404" duration="8161000" />
       <workItem from="1541664864911" duration="5612000" />
+      <workItem from="1541845494076" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180878000" />
+    <option name="totallyTimeSpent" value="181114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958803" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49717057" weight="0.32958803" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -408,7 +406,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.32958803" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.25383994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4930362" visible="true" weight="0.25788197" />
       <window_info anchor="right" id="Database" order="9" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5069638" side_tool="true" weight="0.283751" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -422,6 +420,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49717057" weight="0.32958803" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,13 +466,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/_20181016/quickSort/DemoQuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181017/queue/DemoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -800,15 +792,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181107/miniTree/DemoMiniTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+        <state relative-caret-position="1008">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_20181108/cutPoint/DemoCutPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="100">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_20181110/gugu/trulyGugu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
